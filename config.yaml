@@ -1,0 +1,9 @@
+data_sources:
+  - name: csv
+    file_path: data.csv
+  - name: excel
+    file_path: data.xlsx
+    sheet_name: Sheet1
+  - name: database
+    database_path: data.db
+    table_name: data_table
